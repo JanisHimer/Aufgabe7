@@ -1,4 +1,3 @@
-//arsch
 
 
 import java.awt.Point;
@@ -89,7 +88,7 @@ public class Viereck {
     	
     	return false;
     }
-   
+   /*
    public boolean isRechteck(){
 	   if ((a.getX() == b.getX()) && (a.getY() == d.getY()) && (b.getY() == c.getY()) && (c.getX() == d.getX())) {
            double ab = Math.abs(a.getY() - b.getY());
@@ -102,7 +101,7 @@ public class Viereck {
        }
        return false;
    }
-   
+   */
    
    public boolean isParallelogramm(){
 	   double ab = Math.sqrt((a.getX()-b.getX())*(a.getX()-b.getX())+(a.getY()-b.getY())*(a.getY()-b.getY()));
